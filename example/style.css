@@ -1,0 +1,47 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.one {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+}
+
+.three {
+  grid-column: 1;
+  grid-row: 2 / 7;
+}
+
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  display
+}
+
+form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

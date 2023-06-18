@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.sketch {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.sketch address,
+article,
+aside,
+blockquote,
+canvas,
+dd,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+li,
+main,
+nav,
+ol,
+p,
+pre,
+section,
+table,
+tfoot,
+ul,
+video,
+img,
+button,
+input,
+textarea,
+select {
+    text-align: center;
+    color: #41403E;
+    display: flex;
+    transition: all .2s ease;
+    color: #41403E;
+    outline: none;
+    padding: 5px;
+    /* box-shadow: 20px 38px 34px -26px; */
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 2px #41403E;
+}
+
+.sketch *:hover,
+*:focus {
+    box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
+    cursor: pointer;
+}
+
+.border-none {
+    border: none;
+}
